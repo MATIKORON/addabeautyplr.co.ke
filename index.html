@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="website icon" type="jpg" href="images/woman logo.jpg">
+    <title>addaparlour.co.ke</title>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", century gothic; color: black; font-size: 20px;}
+   
+    body, html {
+      height: 90%;
+      line-height: 1.5;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("images/beuty.jpg");
+      min-height: 100%;
+      
+    }
+
+    .w3-bar .w3-button {
+      padding: 28px;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-pink w3-card" style="font-size: 20px;" id="myNavbar">
+    <img src="images/woman logo.jpg" style="mix-blend-mode: color-burn; width: 10%; margin-left:10%;">
+    
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#shop" class="w3-bar-item w3-button"><i class="fa-solid fa-cart-shopping"></i>  SHOP</a>
+      <a href="#services" class="w3-bar-item w3-button"><i class="fa-solid fa-person-dress"></i>  SERVICES</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa-solid fa-phone"></i>  CONTACT US</a>
+</div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-blue-gray w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">CLOSE</a>
+  <a href="#shop" onclick="w3_close()" class="w3-bar-item w3-button">SHOP</a>
+  <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo "><strong>adda beauty parlour!</strong><img src="images/woman logo.jpg" alt="Logo" width="100" height="100" style="margin-top: 3px;"></span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br>
+    <span class="w3-large">Welcome to adda beauty parlour and spa. Ngong Road</span>
+    <p><a href="#shop" class="w3-button  w3-pink w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" style="margin-left: 140px;"><i class="fa-solid fa-bars"></i>  SHOP</a></p> 
+  </div> 
+  
+</header>
+
+<!-- services -->
+<div class="w3-container  w3-light-grey" style="padding:28px 16px" id="services">
+    <h3 class="w3-center" style="color: blue;"><strong>SERVICES</strong></h3>
+<div class="w3-container w3-light-grey" style="padding:28px 16px ; font-size: 18px;" id="services">
+    <div class="w3-row-padding">
+      <div class="w3-col m6" >
+        <h3><strong>PEDICURE.</strong></h3>
+        <p>Our pedicure treatment involves foot soaking, foot scrubbing with a pumice stone or foot file, nail clipping, nail shaping, foot and calf massage, moisturizer and nail polishing.<br>We also provide luxury pedicure that further involves a relaxing soak, scrub, massage and callus removal.</p>
+        <p><a href="#contact" class="w3-button w3-pink"><i class="fa-solid fa-book"></i>  BOOK SESSION </a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="images/pedicure.jpg" alt="network cables" width="500px" height="394px">
+      </div>
+    </div>
+  </div>
+  <div class="w3-container w3-light-grey" style="padding:28px 16px ; font-size: 18px;" id="services">
+    <div class="w3-row-padding">
+        <div class="w3-col m6">
+            <img class="w3-image w3-round-large" src="images/massage.jpg" alt="network cables" width="500px" height="394px">
+          </div>
+      <div class="w3-col m6" >
+        <h3><strong>MASSAGE THERAPY.</strong></h3>
+        <p>We offer a number of different types of massage, depending on our client's needs including:<br> 1. Deep tissue massage.<br>2. Sports massage.<br>3. Pregnancy Massage</p>
+        <p><a href="#services" class="w3-button w3-pink"><i class="fa-solid fa-book"></i>  BOOK SESSION </a></p>
+      </div>
+    </div>
+    <div class="w3-container w3-light-grey" style="padding:28px 16px; font-size: 18px;" id="services">
+    <div class="w3-row-padding">
+      <div class="w3-col m6" >
+        <h3><strong>HAIR STYLING.</strong></h3>
+        <p>We offer a wide variety of hair braiding services complemented with professionally perfect products to make your hair appear extravagantly beautiful and healthy.</p>
+        <p><a href="#services" class="w3-button w3-pink"><i class="fa-solid fa-book"></i>  BOOK SESSION </a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="images/braiding.jpg" alt="network cables" width="500px" height="394px">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- SHOP -->
+<!-- shop and scroll bar -->
+<div class="scroll-container">
+  <div class="scroll-content">
+    <style>
+      .scroll-container {
+      
+        overflow-x: auto; /* Enable horizontal scrolling */
+        white-space: nowrap; /* Prevent line breaks */
+      }
+  
+      .scroll-content {
+        width: 2000px; /* Set a width larger than the container */
+      }
+    </style>
+
+<div class="w3-container  w3-white" style="padding:28px 16px" id="shop">
+    <h3 class="w3-left-align"  style="color: blue;margin-left: 30%;"><strong>SHOP</strong></h3>
+      <!-- Products -->
+    <div class="product">
+        <img src="images/oils.jpg" alt="angels">
+        <h3>OILS</h3>
+        <p>PRICE: Ksh 540</p>
+        <p>STOCK: 1000</p>
+        <button class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+
+    <div class="product">
+      <img src="images/angels natural locs.jpg" alt="angels">
+      <h3>ANGELS LOCS</h3>
+      <p>PRICE: Ksh 540</p>
+      <p>STOCK: 1000</p>
+      <button class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+    <style>
+         /* CSS for product grid */
+    .product {
+      float: left;
+      width: 200px;
+      margin: 10px;
+      padding: 10px;
+      border: 2px solid green;
+      border-color: green;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 5px;
+      background-color:lightgrey;
+      
+      
+    }
+
+    .product img {
+      width: 150px;
+      height: 150px;
+    }
+     /* CSS for payment popup */
+     .popup {
+      text-align: center;
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+      background-color: rgb(6, 6, 42);
+      border: 1px solid;
+      z-index: 9999;
+      padding: 100px;
+      color: white;
+      border-radius: 5px;
+      border-color: darkred;
+    }
+  
+    </style>
+    </div>
+    <div class="product">
+      <img src="images/dress.jpg" alt="angels">
+      <h3>DRESS</h3>
+      <p>PRICE: Ksh 540</p>
+      <p>STOCK: 1000</p>
+      <button class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+  </div>
+    <div class="product">
+        <img src="images/dress.jpg" alt="angels">
+        <h3>DRESS</h3>
+        <p>PRICE: Ksh 540</p>
+        <p>STOCK: 1000</p>
+        <button class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    <div class="product">
+        <img src="images/makeup kit.jpg" alt="makeup">
+        <h3>MAKEUP KIT</h3>
+        <p>PRICE: Ksh 1540</p>
+        <p>STOCK: 10</p>
+        <button class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    <div class="product">
+        <img src="images/oils.jpg" alt="angels">
+        <h3>OILS</h3>
+        <p>PRICE: Ksh 540</p>
+        <p>STOCK: 1000</p>
+        <button class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    <div class="product">
+        <img src="images/spray.jpg" alt="angels">
+        <h3>SPRAYS</h3>
+        <p>PRICE: Ksh 540</p>
+        <p>STOCK: 1000</p>
+        <button class="add-to-cart"> <i class="fa-solid fa-cart-shopping"></i></button>
+    </div> 
+</div>  
+</div>
+</div>
+<div class="cart">
+    <h2><i class="fa-solid fa-cart-shopping"></i>  CART</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="cart-items">
+        <!-- Cart items will be dynamically added here -->
+      </tbody>
+    </table>
+    <p>TOTAL: <span id="total-price">0</span> KES</p>
+    <button id="pay-btn" style="background-color: limegreen;border-radius: 1px;color: white;">PROCEED TO PAY</button>
+    
+  </div>
+  <style>
+  /* CSS for cart */
+  .cart {
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    margin-top: 6px;
+    font-size: 10px;
+   
+  }
+</style>
+ <!-- Payment popup -->
+ <div id="payment-popup" class="popup">
+    
+    <p>Select payment method:</p>
+    <input type="radio" name="payment-method" value="cash"> CASH<br>
+    <input type="radio" name="payment-method" value="mobile-money"> M-PESA<br>
+    <div id="mobile-money-details" style="display: none;">
+      <p>Enter phone number:</p>
+      <input type="text" id="phone-number" style="border-radius: 5px ">
+      <button id="submit-btn" style="background-color: limegreen;color: white;border-radius: 5px;">SEND</button>
+    </div>
+  </div>
+  <script>
+    // JavaScript code for adding products to the cart
+    const addToCartButtons = document.getElementsByClassName('add-to-cart');
+    const cartItemsContainer = document.getElementById('cart-items');
+    const totalPriceSpan = document.getElementById('total-price');
+
+    let totalPrice = 0;
+
+    for (let i = 0; i < addToCartButtons.length; i++) {
+      addToCartButtons[i].addEventListener('click', function () {
+        const product = this.parentNode;
+        const productName = product.querySelector('h3').textContent;
+        const productPrice = parseInt(product.querySelector('p').textContent.replace(/\D/g, ''));
+        const quantity = 1;
+        const total = productPrice * quantity;
+
+        const cartItem = document.createElement('tr');
+        cartItem.innerHTML = `
+          <td>${productName}</td>
+          <td>${productPrice} KES</td>
+          <td>${quantity}</td>
+          <td>${total} KES</td>
+        `;
+
+        cartItemsContainer.appendChild(cartItem);
+
+        totalPrice += total;
+        totalPriceSpan.textContent = totalPrice;
+      });
+    }
+
+    // JavaScript code for payment popup
+    const payButton = document.getElementById('pay-btn');
+    const paymentPopup = document.getElementById('payment-popup');
+    const mobileMoneyDetails = document.getElementById('mobile-money-details');
+    const submitButton = document.getElementById('submit-btn');
+    const phoneNumberInput = document.getElementById('phone-number');
+
+    payButton.addEventListener('click', function () {
+      paymentPopup.style.display = 'block';
+    });
+
+    submitButton.addEventListener('click', function () {
+      const paymentMethod = document.querySelector('input[name="payment-method"]:checked').value;
+
+      if (paymentMethod === 'mobile-money') {
+        const phoneNumber = phoneNumberInput.value;
+        // Perform mobile money payment with the phone number
+        alert('Payment successful!'); // Replace with actual payment code
+      } else {
+        // Perform cash payment
+        alert('Payment successful!'); // Replace with actual payment code
+      }
+
+      // Clear the cart and reset the total price
+      cartItemsContainer.innerHTML = '';
+      totalPrice = 0;
+      totalPriceSpan.textContent = totalPrice;
+
+      // Close the payment popup
+      paymentPopup.style.display = 'none';
+    });
+
+    // Show/hide phone number input based on selected payment method
+    const paymentMethods = document.getElementsByName('payment-method');
+
+    for (let i = 0; i < paymentMethods.length; i++) {
+      paymentMethods[i].addEventListener('change', function () {
+        if (this.value === 'mobile-money') {
+          mobileMoneyDetails.style.display = 'block';
+        } else {
+          mobileMoneyDetails.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</div>
+<!-- footer begins here -->
+
+<footer class="footer">
+  
+  <div class="container1">
+    <div class="row">
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">privacy policy</a></li>
+          <li><a href="#">affiliate program</a></li>
+        </ul>
+      </div>
+   
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#"> Skin care</a></li>
+          <li><a href="#"> Body care</a></li>
+          <li><a href="#"> Perfumes</a></li>
+          <li><a href="#"> Hair care</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-phone"></i>   + 2547112679662</a></li>
+          <li><a href="#"><i class="fa-solid fa-globe"></i>    addaparlour.co.ke</a></li>
+          <li><a href="#"><i class="fa-solid fa-envelope"></i>   peninamalonza@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Location</h4>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-location-dot"></i>  GATEWAY ARCADE 1st Floor,<br>NGONG ROAD</a></li>
+        
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  <span class="w3-small" style="color: #bbbbbb;">This website was developed and is managed by Ronin Group KE +254787492838</span>
+  </div>
+  <style>
+  .container1{
+    height:auto;
+    width: 100%;
+    background-color: #24262b;
+    
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+  
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .footer-col{
+     width: 20%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color:darkred;
+    height: 2px;
+    box-sizing: border-box;
+    width: 110px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: whitesmoke;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: auto;
+      margin-bottom: 0px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
+</style>
+</body>
+</html>
